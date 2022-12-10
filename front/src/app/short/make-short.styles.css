@@ -65,6 +65,7 @@ h1 {
     padding-left: 24px;
     background-color: #1ABD54;
     border: 1px solid #1ED760;
+    border-right: none;
 }
 
 .getBlock {
@@ -77,6 +78,7 @@ h1 {
     width: 250px;
     height: 350px;
     border: 1px solid #1ED760;
+    border-left: none;
     border-radius: 0 25px 25px 0;
 }
 
@@ -140,8 +142,8 @@ h1 {
 }
 
 .getBlock a:hover {
-    border-bottom: #1ED760 1px solid;
-    background: #1ED760;
+    border-bottom: #4E184F 1px solid;
+    background: rgba(30, 215, 96, 0.5);
 }
 
 .short__result {

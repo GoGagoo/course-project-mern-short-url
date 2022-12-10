@@ -8,7 +8,6 @@ function OpenShort() {
     fetch(`http://localhost:8000/${path}`)
             .then(response => response.json())
             .then(data => {
-                // грязный хак :D
                 // eslint-disable-next-line no-restricted-globals
                 window.location = /(http(s?)):\/\//i.test(data.uri) ? data.uri : 'https://' + data.uri
             })
