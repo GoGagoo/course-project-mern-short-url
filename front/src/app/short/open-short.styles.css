@@ -1,0 +1,37 @@
+.mainBlock {
+    background-color: #1E1E1E;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-decoration-line: underline;
+}
+p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+}
+.logo {
+    width: 237px;
+    height: 229px;
+
+    background: #1ABD54;
+    border-radius: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
